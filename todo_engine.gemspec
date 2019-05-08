@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.version     = TodoEngine::VERSION
   spec.authors     = ["kishorecherukuror"]
   spec.email       = ["kishorecheruku.ror@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of TodoEngine."
-  spec.description = "TODO: Description of TodoEngine."
+  spec.homepage    = "https://github.com/kishorecherukuror/todo_engine.git"
+  spec.summary     = "Experiment"
+  spec.description = "Experiment"
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    #spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
